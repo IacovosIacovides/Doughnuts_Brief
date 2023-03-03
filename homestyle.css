@@ -110,6 +110,7 @@ h2 {
   text-shadow: 2px 3px black;
 }
 .firstparagraph{
+  flex: content;
   background-color: rgba(78, 78, 78, 0.9);
   color: rgb(255, 255, 255);
   font-size: 2vw; /* Responsive font size */
