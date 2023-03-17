@@ -1,6 +1,5 @@
 /* Variables */
 :root{
-    font-family: 'Economica', sans-serif;
     font-family: 'Lobster', cursive;
     --animate-delay: 0s;
 }
@@ -15,15 +14,16 @@
 /* Edits for the whole body */
 body {
     margin: 0;
-    background-image: url(assets/background.png);
-    background-repeat: repeat;
+    background-color: #eec3fdc8;
   }
+  /* animation editing*/
   .animate__animated.animate__slideInUp {
     --animate-duration: 1.0s;
   }
   .animate__animated.animate__slideInLeft{
     --animate-duration: 1.0s;
   }
+  /* navigation editing*/
   .topnav {
     margin-left: 5%;
     margin-right: 5%;
@@ -94,6 +94,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.centered section{
+  border-radius: 30px;
 }
 .centered h1{
     background: rgb(169, 169, 169); /* Fallback color */
@@ -205,6 +208,7 @@ input[type="submit"] {
     cursor: pointer;
     width: 100%;
 }
+/* h2 editing*/
 h2{
     text-align: center;
     font-weight: bolder;
@@ -213,6 +217,7 @@ h2{
     font-size: 55px;
     color: white;
 }
+/* p editing*/
 .container p{
     font-size: 40px;
     font-family: var(--pfontfamily);
